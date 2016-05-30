@@ -1,0 +1,163 @@
+﻿namespace GDTS
+{
+	partial class NewInstructor
+	{
+		/// <summary>
+		/// Required designer variable.
+		/// </summary>
+		private System.ComponentModel.IContainer components = null;
+
+		/// <summary>
+		/// Clean up any resources being used.
+		/// </summary>
+		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+		protected override void Dispose (bool disposing)
+		{
+			if (disposing && (components != null))
+			{
+				components.Dispose ( );
+			}
+			base.Dispose (disposing);
+		}
+
+		#region Windows Form Designer generated code
+
+		/// <summary>
+		/// Required method for Designer support - do not modify
+		/// the contents of this method with the code editor.
+		/// </summary>
+		private void InitializeComponent ( )
+		{
+            this.firstNameBox = new System.Windows.Forms.TextBox();
+            this.lastNameBox = new System.Windows.Forms.TextBox();
+            this.classroomRankBox = new System.Windows.Forms.ComboBox();
+            this.graduateRankBox = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.submitNewTeacberInfoButton = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // firstNameBox
+            // 
+            this.firstNameBox.Location = new System.Drawing.Point(151, 45);
+            this.firstNameBox.Name = "firstNameBox";
+            this.firstNameBox.Size = new System.Drawing.Size(121, 20);
+            this.firstNameBox.TabIndex = 0;
+            // 
+            // lastNameBox
+            // 
+            this.lastNameBox.Location = new System.Drawing.Point(151, 83);
+            this.lastNameBox.Name = "lastNameBox";
+            this.lastNameBox.Size = new System.Drawing.Size(121, 20);
+            this.lastNameBox.TabIndex = 1;
+            // 
+            // classroomRankBox
+            // 
+            this.classroomRankBox.FormattingEnabled = true;
+            this.classroomRankBox.Items.AddRange(new object[] {
+            "Instructor",
+            "Associate",
+            "Assistant",
+            "Professor"});
+            this.classroomRankBox.Location = new System.Drawing.Point(151, 125);
+            this.classroomRankBox.Name = "classroomRankBox";
+            this.classroomRankBox.Size = new System.Drawing.Size(121, 21);
+            this.classroomRankBox.TabIndex = 2;
+            this.classroomRankBox.Text = "Select Rank...";
+            // 
+            // graduateRankBox
+            // 
+            this.graduateRankBox.FormattingEnabled = true;
+            this.graduateRankBox.Items.AddRange(new object[] {
+            "Full",
+            "Associate",
+            "Temp"});
+            this.graduateRankBox.Location = new System.Drawing.Point(151, 169);
+            this.graduateRankBox.Name = "graduateRankBox";
+            this.graduateRankBox.Size = new System.Drawing.Size(121, 21);
+            this.graduateRankBox.TabIndex = 3;
+            this.graduateRankBox.Text = "Select Rank...";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 48);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(60, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "First Name:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 86);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(61, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Last Name:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(15, 128);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(87, 13);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Classroom Rank:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(15, 172);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(120, 13);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Graduate Faculty Rank:";
+            // 
+            // submitNewTeacberInfoButton
+            // 
+            this.submitNewTeacberInfoButton.Location = new System.Drawing.Point(63, 227);
+            this.submitNewTeacberInfoButton.Name = "submitNewTeacberInfoButton";
+            this.submitNewTeacberInfoButton.Size = new System.Drawing.Size(75, 23);
+            this.submitNewTeacberInfoButton.TabIndex = 5;
+            this.submitNewTeacberInfoButton.Text = "Submit";
+            this.submitNewTeacberInfoButton.UseVisualStyleBackColor = true;
+            this.submitNewTeacberInfoButton.Click += new System.EventHandler(this.submitNewTeacherInfoButton_Click);
+            // 
+            // NewInstructor
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.submitNewTeacberInfoButton);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.graduateRankBox);
+            this.Controls.Add(this.classroomRankBox);
+            this.Controls.Add(this.lastNameBox);
+            this.Controls.Add(this.firstNameBox);
+            this.Name = "NewInstructor";
+            this.Text = "NewInstructor";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.NewInstructor_FormClosing);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+		}
+
+		#endregion
+
+		private System.Windows.Forms.TextBox firstNameBox;
+		private System.Windows.Forms.TextBox lastNameBox;
+		private System.Windows.Forms.ComboBox classroomRankBox;
+		private System.Windows.Forms.ComboBox graduateRankBox;
+		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Label label3;
+		private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button submitNewTeacberInfoButton;
+	}
+}

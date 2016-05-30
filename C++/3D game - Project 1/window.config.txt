@@ -1,0 +1,9 @@
+title: Hello World!
+initial position x: 200
+initial position y: 100
+width: 300
+height: 400
+background red: 0.2f
+background green: 0.4f
+background blue: 0.7f
+background alpha: 0.0f

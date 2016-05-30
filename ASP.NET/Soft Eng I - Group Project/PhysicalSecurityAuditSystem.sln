@@ -1,0 +1,114 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicalSecurityAuditSystem", "PhysicalSecurityAuditSystem\PhysicalSecurityAuditSystem.csproj", "{992C87FC-EE01-49EC-A0C2-46345DD29AE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{57D79B25-E6DE-4F0F-9623-2FA28204B1FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALAudits", "DALAudits\DALAudits.csproj", "{5FF9D509-E96C-42F4-9F96-4459B5726F61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALReporting", "DALReporting\DALReporting.csproj", "{7233E703-6C3F-43BE-85DF-6008D6C3022E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALSystem", "DALSystem\DALSystem.csproj", "{E1870F3A-BE27-487C-8AD7-17E3319C6A79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuditSystem", "System\AuditSystem.csproj", "{765B9941-22D5-4BD2-B1B6-DA0EF5B49375}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{3A2B089D-BB6C-4411-A9F5-B355D26C0C8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{8D70B7DD-F8BD-466E-93BF-F6AB16580352}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SystemCode", "SystemCode", "{82762AA3-BAC5-4CB1-8E1A-E6206B7D2BE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingSystem", "TestingSystem\TestingSystem.csproj", "{DA941504-0EAC-4A0C-83F9-669C2933991F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{B63C158F-6704-44AE-9F3D-0E179180A641}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{6802CC5D-EA10-4B97-9201-581498BC7F4C}"
+	ProjectSection(SolutionItems) = preProject
+		ClassDiagram.png = ClassDiagram.png
+		UseCases.docx = UseCases.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://harristr.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PhysicalSecurityAuditSystem\\PhysicalSecurityAuditSystem.csproj
+		SccProjectTopLevelParentUniqueName1 = PhysicalSecurityAuditSystem.sln
+		SccProjectName1 = PhysicalSecurityAuditSystem
+		SccLocalPath1 = PhysicalSecurityAuditSystem
+		SccProjectUniqueName2 = Utilities\\Utilities.csproj
+		SccProjectTopLevelParentUniqueName2 = PhysicalSecurityAuditSystem.sln
+		SccProjectName2 = Utilities
+		SccLocalPath2 = Utilities
+		SccProjectUniqueName3 = DALAudits\\DALAudits.csproj
+		SccProjectTopLevelParentUniqueName3 = PhysicalSecurityAuditSystem.sln
+		SccProjectName3 = DALAudits
+		SccLocalPath3 = DALAudits
+		SccProjectUniqueName4 = DALReporting\\DALReporting.csproj
+		SccProjectTopLevelParentUniqueName4 = PhysicalSecurityAuditSystem.sln
+		SccProjectName4 = DALReporting
+		SccLocalPath4 = DALReporting
+		SccProjectUniqueName5 = DALSystem\\DALSystem.csproj
+		SccProjectTopLevelParentUniqueName5 = PhysicalSecurityAuditSystem.sln
+		SccProjectName5 = DALSystem
+		SccLocalPath5 = DALSystem
+		SccProjectUniqueName6 = TestingSystem\\TestingSystem.csproj
+		SccProjectTopLevelParentUniqueName6 = PhysicalSecurityAuditSystem.sln
+		SccProjectName6 = TestingSystem
+		SccLocalPath6 = TestingSystem
+		SccProjectUniqueName7 = System\\AuditSystem.csproj
+		SccProjectTopLevelParentUniqueName7 = PhysicalSecurityAuditSystem.sln
+		SccProjectName7 = System
+		SccLocalPath7 = System
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{992C87FC-EE01-49EC-A0C2-46345DD29AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{992C87FC-EE01-49EC-A0C2-46345DD29AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{992C87FC-EE01-49EC-A0C2-46345DD29AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{992C87FC-EE01-49EC-A0C2-46345DD29AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D79B25-E6DE-4F0F-9623-2FA28204B1FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D79B25-E6DE-4F0F-9623-2FA28204B1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D79B25-E6DE-4F0F-9623-2FA28204B1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D79B25-E6DE-4F0F-9623-2FA28204B1FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FF9D509-E96C-42F4-9F96-4459B5726F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF9D509-E96C-42F4-9F96-4459B5726F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF9D509-E96C-42F4-9F96-4459B5726F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF9D509-E96C-42F4-9F96-4459B5726F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7233E703-6C3F-43BE-85DF-6008D6C3022E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7233E703-6C3F-43BE-85DF-6008D6C3022E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7233E703-6C3F-43BE-85DF-6008D6C3022E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7233E703-6C3F-43BE-85DF-6008D6C3022E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1870F3A-BE27-487C-8AD7-17E3319C6A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1870F3A-BE27-487C-8AD7-17E3319C6A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1870F3A-BE27-487C-8AD7-17E3319C6A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1870F3A-BE27-487C-8AD7-17E3319C6A79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{765B9941-22D5-4BD2-B1B6-DA0EF5B49375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{765B9941-22D5-4BD2-B1B6-DA0EF5B49375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{765B9941-22D5-4BD2-B1B6-DA0EF5B49375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{765B9941-22D5-4BD2-B1B6-DA0EF5B49375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA941504-0EAC-4A0C-83F9-669C2933991F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA941504-0EAC-4A0C-83F9-669C2933991F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA941504-0EAC-4A0C-83F9-669C2933991F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA941504-0EAC-4A0C-83F9-669C2933991F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{992C87FC-EE01-49EC-A0C2-46345DD29AE2} = {8D70B7DD-F8BD-466E-93BF-F6AB16580352}
+		{765B9941-22D5-4BD2-B1B6-DA0EF5B49375} = {82762AA3-BAC5-4CB1-8E1A-E6206B7D2BE9}
+		{57D79B25-E6DE-4F0F-9623-2FA28204B1FF} = {82762AA3-BAC5-4CB1-8E1A-E6206B7D2BE9}
+		{6802CC5D-EA10-4B97-9201-581498BC7F4C} = {82762AA3-BAC5-4CB1-8E1A-E6206B7D2BE9}
+		{7233E703-6C3F-43BE-85DF-6008D6C3022E} = {3A2B089D-BB6C-4411-A9F5-B355D26C0C8E}
+		{E1870F3A-BE27-487C-8AD7-17E3319C6A79} = {3A2B089D-BB6C-4411-A9F5-B355D26C0C8E}
+		{5FF9D509-E96C-42F4-9F96-4459B5726F61} = {3A2B089D-BB6C-4411-A9F5-B355D26C0C8E}
+		{DA941504-0EAC-4A0C-83F9-669C2933991F} = {B63C158F-6704-44AE-9F3D-0E179180A641}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+if (this->isCollidingWith("Key")) {
+				this->objectsColliding["Key"]->activateLinkedObjects();
+				auto it = this->objectsColliding.find("Key");
+				this->objectsColliding.erase(it);
+				this->objectMgr->eraseObject("Drain");
+				this->objectMgr->eraseObject("Key");
+
+			}

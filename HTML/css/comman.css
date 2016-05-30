@@ -1,0 +1,147 @@
+			/* 
+				<!--	Name: 		Ishan Patel
+				Course:		CSCI 1710
+				Assignment: Proj 1
+				Due date:	12/04/2014
+				Purpose: 	We are doing Bootstrap  -->
+			*/
+			
+			body{
+				background-color:black;
+			}
+			li:hover{
+				background-color:black;
+			}
+			li{
+				font-family: '04b_19regular';
+				font-size:18px;
+								color:white;
+
+			}
+			.fontfix{
+				font-family: '04b_19regular';
+				font-size:18px;
+				color:white;
+			}
+			
+			.fontfix1{
+				font-family: '04b_19regular';
+				font-size:25px;
+				color:#333333;
+			}
+			.fontPixel{
+				font-family: 'apple_regular'; 
+				font-size: 10px;  
+				color:#EFEFEF;
+			}
+			.fontPixel1{
+				font-family: 'apple_regular'; 
+				font-size: 13px;  
+				color:#333333;
+			}
+			.smGlobalBtn{ /* global button class */
+				display: inline-block;
+				position: relative;
+				cursor: pointer;
+				width: 50px;
+				height: 50px;
+				box-shadow: 0 2px 2px #999;
+				padding: 0px;
+				text-decoration: none;
+				text-align: center;
+				color: #fff;
+				font-size: 25px;
+				font-weight: normal;
+				line-height: 2em;
+				border-radius: 25px;
+				-moz-border-radius:25px;
+				-webkit-border-radius:25px;
+			}
+			
+			.facebookBtn{
+				background: #4060A5;
+			}
+
+			.facebookBtn:before{ /* use :before to add the relevant icons */
+				font-family: "FontAwesome";
+				content: "\f09a"; /* add facebook icon */
+			}
+
+			.facebookBtn:hover{
+				color: #4060A5;
+				background: #fff;
+			}
+
+			/* twitter button class*/
+			.twitterBtn{
+				background: #00ABE3;
+			}
+
+			.twitterBtn:before{
+				  font-family: "FontAwesome";
+				  content: "\f099"; /* add twitter icon */
+			}
+
+			.twitterBtn:hover{
+				  color: #00ABE3;
+				  background: #fff;
+			}
+			
+			/* pinterest button class*/
+			.pinterestBtn{
+				background: #cb2027;
+			}
+
+			.pinterestBtn:before{
+				  font-family: "FontAwesome";
+				  content: "\f0d2"; /* add pinterest icon */
+			}
+
+			.pinterestBtn:hover{
+				  color: #cb2027;
+				  background: #fff;
+			}
+			
+			.colorByte{
+				color:#4D4D4D;
+			}
+			
+			.colorPixel{
+				color:#1ABC9C;
+			}
+			
+			.fontSizeByte{
+				font-size:25px;
+			}
+			.fontSizePixel{
+				font-size:12px;
+			}
+			
+			.underlineNone{
+				text-decoration:none;
+			}
+			#footer{
+				position:relative;
+				bottom:0;
+				left:0;
+				width:100%;
+				padding:10px;
+				background-color:rgba(0,0,0,0.6);
+				color:white;
+				font-size:14px;
+				text-align:center;
+				border-top: 1px solid #000;
+			}
+			
+			.jumbotron1{padding:10px;
+			margin-bottom:30px;
+			color:inherit;
+			background-color:#eee;
+			}
+			
+			.form-group.required .control-label:after { 
+			   content:"*";
+			   color:red;
+			}
+			
+			

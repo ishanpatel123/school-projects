@@ -1,0 +1,62 @@
+<assets>
+  <textures>
+    BMP, letters.bmp, Letters
+    BMP, crate.bmp, CrateTex
+    BMP, ground.bmp, Floor2Tex
+    BMP, wall.bmp, WallTex
+    BMP, floor.bmp, FloorTex
+    BMP, grass.bmp, GrassTex
+    BMP, stone_wall.bmp, StoneWallTex
+    BMP, plaster.bmp, PlasterTex
+    BMP, stone1.bmp, Stone1Tex
+    BMP, wood_planks.bmp, WoodPlankTex
+    BMP, plain.bmp, PlainTex
+  </textures>
+  <gameobjects>
+    <localLightSources>
+      ! 8.0f, 2.0f, 8.0f, 1.0f
+      -25.0f, 9.0f, 15.0f, 1.0f
+    </localLightSources>
+    
+    <axis>
+      <name>
+        Axes
+      </name>
+      <length>
+        3.0f
+      </length>
+      <shaderName>
+        ShaderProgram3d
+      </shaderName>
+    </axis>
+    
+    <otfs>
+      <name>
+        Floor
+      </name>
+      <width>
+        80.0f
+      </width>
+      <depth>
+        80.0f
+      </depth>
+      <widthSegments>
+        60
+      </widthSegments>
+      <depthSegments>
+        60
+      </depthSegments>
+      <color>
+        0.05f, 0.05f, 0.05f, 1.0f
+      </color> 
+      <textureName>
+        WallTex
+      </textureName>
+      <shaderName>
+        TextureShader
+      </shaderName>
+    </otfs>
+    
+  </gameobjects>
+</assets>
+

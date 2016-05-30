@@ -1,0 +1,11 @@
+alpha = Beta * Gama * Delta
+Beta = Gama * Delta * Pie
+A = (B +c) * (c-D)/2 + E
+Angelo = (Marko * Harpo * Zeppo/3
+Purple = Red * Blue)
+120 = 1 * 2 * 3 * 8
+A = ((((A+B)-C)*D)/(E+1))
+A = (((1+B)-C)*D)/(E+1))
+
+dResult = (3.0 * ar[nI]/ 2.0 + 6.0) * dFudgeFactor
+dAvg = (dA+dB+dC)/5

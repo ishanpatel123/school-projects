@@ -1,0 +1,110 @@
+﻿@model CountDown.Models.ToDoItem
+
+@{
+    ViewBag.Title = "View";
+}
+
+@{
+    List<SelectListItem> listItems = new List<SelectListItem>();
+    listItems.Add(new SelectListItem
+         {
+             Text = "Not you",
+             Value = "Not you"
+         });
+    listItems.Add(new SelectListItem
+         {
+             Text = "You",
+             Value = "You",
+             Selected = true
+         });
+    listItems.Add(new SelectListItem
+         {
+             Text = "David Bowie",
+             Value = "David Bowie"
+         });
+}
+
+
+@using (Html.BeginForm()) {
+@Html.AntiForgeryToken()
+@Html.ValidationSummary(true)
+   
+    
+<h2>Owned by: @Html.DisplayTextFor(m => m.Owner) </h2> @Html.Label("Status: ", new { @style = "margin-right: 40%; float: right" }) 
+    @Html.Label(Model.TheStatus.ToString(), new { @style = "float: right; margin-right: -20%; color: red" })
+  
+<br/>
+<hr>  
+            
+    <h3>Title @Html.TextBoxFor(m => m.Title, new { @style = "float: right; width: 50%; margin-right: 25%", @readonly = "readonly" })</h3>
+    <br/>
+    
+    <h3>Description @Html.TextAreaFor(m => m.Description, new { @style = "float: right; width: 50%; margin-right: 25%", @readonly="readonly" })</h3>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+   
+    <h3>Start Date @Html.TextBoxFor(m => m.StartTime.Date, new { @style = "float: right; width: 50% ; margin-right: 25%", @readonly = "readonly" })</h3>
+    <br/>
+
+    <h3>Start Time @Html.TextBoxFor(m => m.StartTime.TimeOfDay, new { @style = "float: right; width: 50%; margin-right: 25%", @readonly = "readonly" })</h3>
+    <br/>
+    
+    <h3>Due Date @Html.TextBoxFor(m => m.DueTime.Date, new { @style = "float: right; width: 50%; margin-right: 25%", @readonly = "readonly" })</h3>
+    <br/>
+    
+    <h3>Due Time @Html.TextBoxFor(m => m.DueTime.TimeOfDay, new { @style = "float: right; width: 50%; margin-right: 25%", @readonly = "readonly" })</h3>
+    <br/>
+
+    //<h3>Assign To @Html.DropDownListFor(m => m.AssignTo) </h3>
+    
+
+ 
+     
+    if (Model.TheStatus.ToString() == "Completed")
+    {
+        <p>
+            <h3> Assign to @Html.TextBoxFor(m => m.Owner, new { @style = "float: right; width: 50%; margin-right: 25%", @readonly = "readonly" })</h3>
+            <br>
+            <input type="button" value="Cancel" onclick=@Html.ActionLink("Edit", "Edit", new { id=Model.Id })>
+            <hr>
+
+            @*@Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+            @Html.ActionLink("Back to List", "Index")*@
+        </p>
+    }
+    else if ( /*Model.Owner.ToString()*/"g" == "g") //if owner is viewing it
+    {
+
+        
+        <p>
+            <h3> Assign to @Html.DropDownListFor(m => m.Owner, listItems, "---", new { @style = "float: right; width: 50%; margin-right: 25%", @readonly = "readonly" })</h3>
+            <br>
+            <input type="button" value="Cancel" onclick=@Html.ActionLink("Edit", "Edit", new { id=Model.Id })>
+            <input type="button" value="Delete" onclick=@Html.ActionLink("Edit", "Edit", new { id=Model.Id })>
+            <input type="button" value="Edit" onclick=@Html.ActionLink("Edit", "Edit", new { id=Model.Id })>
+            <input type="button" value="Submit" onclick=@Html.ActionLink("Edit", "Edit", new { id=Model.Id })>
+            <hr>
+
+            @*@Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+            @Html.ActionLink("Back to List", "Index")*@
+        </p>
+    } else
+    {
+        <p>
+            <h3> Assign to @Html.TextBoxFor(m => m.Owner, new { @style = "float: right; width: 50%; margin-right: 25%", @readonly = "readonly" })</h3>
+            <br>
+            <input type="button" value="Cancel" onclick=@Html.ActionLink("Edit", "Edit", new { id=Model.Id })>
+            <hr>
+
+            @*@Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+            @Html.ActionLink("Back to List", "Index")*@
+        </p>
+    }
+
+    
+
+
+}
+
